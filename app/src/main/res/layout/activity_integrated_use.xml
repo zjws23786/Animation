@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二阶贝塞尔曲线运动"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <com.hh.person.animation.custom.MyAnimView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.hh.person.animation.custom.LineSportAnimView
+            android:id="@+id/line_sport_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <com.hh.person.animation.custom.BeZiTwoView
+            android:id="@+id/be_zi_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

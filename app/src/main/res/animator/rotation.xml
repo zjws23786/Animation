@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--第一种写法 目录在animator下定义animator对象-->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:valueFrom="0"
+    android:valueTo="360"
+    android:duration="5000"
+    android:interpolator="@android:anim/anticipate_interpolator"
+    android:valueType="floatType"
+    android:propertyName="rotation"/>
+
+<!--
+    duration="1000"          持续时间/毫秒
+    interpolator             修饰动画效果,定义动画的变化率(加速,减速,重复,弹跳)
+    propertyName="translateX"属性名（还有前面回顾属性动画提到的属性，另外还有颜色渐变fillColor/轨迹绘制trimPathStart）
+    repeatCount="infinite"   无限次
+    repeatMode="reverse"     重复模式:循环使用
+    valueFrom="0"            起始值
+    valueTo="10"             结束值
+    valueType="floatType"    变化值的类型:浮点型变化
+ -->
+
+<!--第二种写法 目录在anim下定义animation对象-->
+<!--<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="10%"
+        android:pivotY="100%"
+        android:interpolator="@android:anim/anticipate_interpolator"
+        android:duration="5000" />
+</set>-->
+    <!--或-->
+    <!--<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="10%"
+        android:pivotY="100%"
+        android:interpolator="@android:anim/anticipate_interpolator"
+        android:duration="5000"/>-->
+
+    <!--
+      fromDegrees  	动画开始时的角度
+      toDegrees    	动画结束时物件的旋转角度,正代表顺时针
+      pivotX  	属性为动画相对于物件的X坐标的开始位置
+      pivotY 	属性为动画相对于物件的Y坐标的开始位置    -->
+
+

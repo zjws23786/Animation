@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_rotation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/tran_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平移动作"/>
+
+    <TextView
+        android:id="@+id/tran_tv"
+        android:layout_marginTop="10dp"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="平移对象"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:background="#0f0"/>
+
+    <TextView
+        android:id="@+id/red_point_tv"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="#f00"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/bse_tv"
+        android:layout_marginTop="10dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="#00f"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"/>
+
+</LinearLayout>

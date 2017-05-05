@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <scale
+        android:interpolator= "@android:anim/decelerate_interpolator"
+        android:fromXScale="1"
+        android:toXScale="3"
+        android:fromYScale="1"
+        android:toYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="0"
+        android:duration="10000" />
+
+
+
+    <!--<scale
+        android:interpolator= "@android:anim/decelerate_interpolator"
+        android:fromXScale="1"
+        android:toXScale="3"
+        android:fromYScale="1"
+        android:toYScale="3"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:startOffset="0"
+        android:duration="10000" />-->
+
+</set>
+
+<!--
+repeatMode:动画重复的模式，reverse为反向，当第偶次执行时，动画方向会相反。restart为重新执行，方向不变
+-->

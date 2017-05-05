@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially"><!--组合动画的顺序-->
+
+    <objectAnimator
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="5000"
+        android:valueType="floatType"
+        android:propertyName="alpha"/>
+
+    <objectAnimator
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="5000"
+        android:valueType="floatType"
+        android:propertyName="alpha"/>
+
+</set>

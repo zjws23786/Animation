@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/svg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="5.0系统 Svg-标准矢量图形语"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/rotation_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="rotation旋转动画效果"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/value_animator_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="valueAnimator使用"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/translation_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="translation平移动画"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/scale_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Scale缩放动画"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/alpha_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="alpha渐变动画"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/use_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="动画综合应用"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/region_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Region-区域使用"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/elm_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="仿饿了么动画效果"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/canvas_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Canvas"
+        android:gravity="center"
+        android:background="#fee"/>
+
+ <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/paint_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="paint"
+        android:gravity="center"
+        android:background="#fee"/>
+
+
+</LinearLayout>
+</ScrollView>
