@@ -96,12 +96,21 @@
         android:gravity="center"
         android:background="#fee"/>
 
- <TextView
+    <TextView
         android:layout_margin="5dp"
         android:id="@+id/paint_tv"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="paint"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/charge_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="电池充电"
         android:gravity="center"
         android:background="#fee"/>
 

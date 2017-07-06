@@ -20,6 +20,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private TextView elmTv;
     private TextView canvasTv;
     private TextView paintTv;
+    private TextView chargeTv;
 
     @Override
     protected void setLayout() {
@@ -39,6 +40,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         elmTv = (TextView) findViewById(R.id.elm_tv);
         canvasTv = (TextView) findViewById(R.id.canvas_tv);
         paintTv = (TextView) findViewById(R.id.paint_tv);
+        chargeTv = (TextView) findViewById(R.id.charge_tv);
     }
 
     @Override
@@ -54,6 +56,7 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         elmTv.setOnClickListener(this);
         canvasTv.setOnClickListener(this);
         paintTv.setOnClickListener(this);
+        chargeTv.setOnClickListener(this);
     }
 
     @Override
@@ -103,7 +106,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
             case R.id.paint_tv:
                 intent = new Intent(this,PaintActivity.class);
                 break;
-
+            case R.id.charge_tv:
+                intent = new Intent(this,BatteryChargingProcessActivity.class);
+                break;
         }
         if (intent != null){
             startActivity(intent);
