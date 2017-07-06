@@ -2,7 +2,6 @@ package com.hh.person.animation;
 
 import android.os.Handler;
 import android.os.Message;
-import android.util.Log;
 import android.widget.ImageView;
 
 import com.hh.person.animation.base.BaseActivity;
@@ -40,17 +39,17 @@ public class BatteryChargingProcessActivity extends BaseActivity {
 
     @Override
     protected void initData() {
-        playAudioAnimation(chargeIv);
+        playChargeAnimation(chargeIv);
     }
 
     /**
      * 充电图标动画
      */
-    private void playAudioAnimation(final ImageView imageView) {
+    private void playChargeAnimation(final ImageView imageView) {
         //定时器检查充电状态
-        mTimer=new Timer();
+        mTimer = new Timer();
 
-        chargeAnimationHandler =new ChargeAnimationHandler(imageView);
+        chargeAnimationHandler = new ChargeAnimationHandler(imageView);
         mTimerTask = new TimerTask() {
             @Override
             public void run() {
