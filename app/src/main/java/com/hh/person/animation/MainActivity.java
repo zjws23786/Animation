@@ -21,6 +21,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private TextView canvasTv;
     private TextView paintTv;
     private TextView chargeTv;
+    private TextView sinkingTv;
+    private TextView bubbleTv;
 
     @Override
     protected void setLayout() {
@@ -41,6 +43,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         canvasTv = (TextView) findViewById(R.id.canvas_tv);
         paintTv = (TextView) findViewById(R.id.paint_tv);
         chargeTv = (TextView) findViewById(R.id.charge_tv);
+        sinkingTv = (TextView) findViewById(R.id.sinking_tv);
+        bubbleTv = (TextView) findViewById(R.id.bubble_tv);
     }
 
     @Override
@@ -57,6 +61,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         canvasTv.setOnClickListener(this);
         paintTv.setOnClickListener(this);
         chargeTv.setOnClickListener(this);
+        sinkingTv.setOnClickListener(this);
+        bubbleTv.setOnClickListener(this);
     }
 
     @Override
@@ -108,6 +114,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.charge_tv:
                 intent = new Intent(this,BatteryChargingProcessActivity.class);
+                break;
+            case R.id.sinking_tv:
+                intent = new Intent(this,SinkingActivity.class);
+                break;
+            case R.id.bubble_tv:
+                intent = new Intent(this,BubbleAnimationActivity.class);
                 break;
         }
         if (intent != null){

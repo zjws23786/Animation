@@ -27,7 +27,9 @@
         <activity android:name=".ElmActivity" />
         <activity android:name=".PaintActivity" />
         <activity android:name=".CanvasActivity" />
-        <activity android:name=".BatteryChargingProcessActivity"></activity>
+        <activity android:name=".BatteryChargingProcessActivity" />
+        <activity android:name=".SinkingActivity" />
+        <activity android:name=".BubbleAnimationActivity"></activity>
     </application>
 
 </manifest>

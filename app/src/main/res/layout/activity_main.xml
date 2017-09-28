@@ -114,6 +114,24 @@
         android:gravity="center"
         android:background="#fee"/>
 
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/sinking_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="仿360手机卫士的自定义波浪球形进度"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/bubble_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="气泡冒泡"
+        android:gravity="center"
+        android:background="#fee"/>
+
 
 </LinearLayout>
 </ScrollView>
