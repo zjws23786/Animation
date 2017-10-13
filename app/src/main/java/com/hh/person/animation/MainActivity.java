@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.hh.person.animation.base.BaseActivity;
+import com.hh.person.animation.gif.GifActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
     private TextView svgTv;
@@ -23,6 +24,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     private TextView chargeTv;
     private TextView sinkingTv;
     private TextView bubbleTv;
+    private TextView gifTv;
+    private TextView canvasClipTv;
 
     @Override
     protected void setLayout() {
@@ -45,6 +48,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         chargeTv = (TextView) findViewById(R.id.charge_tv);
         sinkingTv = (TextView) findViewById(R.id.sinking_tv);
         bubbleTv = (TextView) findViewById(R.id.bubble_tv);
+        gifTv = (TextView) findViewById(R.id.gif_tv);
+        canvasClipTv = (TextView) findViewById(R.id.canvas_clip_tv);
     }
 
     @Override
@@ -63,6 +68,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
         chargeTv.setOnClickListener(this);
         sinkingTv.setOnClickListener(this);
         bubbleTv.setOnClickListener(this);
+        gifTv.setOnClickListener(this);
+        canvasClipTv.setOnClickListener(this);
     }
 
     @Override
@@ -120,6 +127,12 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.bubble_tv:
                 intent = new Intent(this,BubbleAnimationActivity.class);
+                break;
+            case R.id.gif_tv:
+                intent = new Intent(this, GifActivity.class);
+                break;
+            case R.id.canvas_clip_tv:
+                intent = new Intent(this,CanvasClipActivity.class);
                 break;
         }
         if (intent != null){

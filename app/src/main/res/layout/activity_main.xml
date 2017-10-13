@@ -132,6 +132,24 @@
         android:gravity="center"
         android:background="#fee"/>
 
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/gif_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="自定义gif动画"
+        android:gravity="center"
+        android:background="#fee"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/canvas_clip_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="画布裁剪"
+        android:gravity="center"
+        android:background="#fee"/>
+
 
 </LinearLayout>
 </ScrollView>

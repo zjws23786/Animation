@@ -97,7 +97,7 @@ public class MySinkingView extends FrameLayout {
         canvas.save();
         path.reset();
         //用指定的路径相交当前的剪辑
-        canvas.clipPath(path);
+//        canvas.clipPath(path);
         //向路径添加一个闭圆轮廓
         path.addCircle(width / 2, height / 2, width / 2, Path.Direction.CCW);
         //使用指定的路径修改当前的剪辑

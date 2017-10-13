@@ -29,7 +29,9 @@
         <activity android:name=".CanvasActivity" />
         <activity android:name=".BatteryChargingProcessActivity" />
         <activity android:name=".SinkingActivity" />
-        <activity android:name=".BubbleAnimationActivity"></activity>
+        <activity android:name=".BubbleAnimationActivity" />
+        <activity android:name=".gif.GifActivity" />
+        <activity android:name=".CanvasClipActivity"></activity>
     </application>
 
 </manifest>

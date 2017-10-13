@@ -7,6 +7,9 @@ import android.view.View;
 import com.hh.person.animation.base.BaseActivity;
 import com.hh.person.animation.widget.MySinkingView;
 
+/**
+ * 仿360水波动画
+ */
 public class SinkingActivity extends BaseActivity {
     private MySinkingView mSinkingView;
     private float percent = 0;

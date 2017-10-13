@@ -10,6 +10,9 @@ import android.widget.Button;
 import com.hh.person.animation.base.BaseActivity;
 import com.hh.person.animation.widget.BubbleAnimationView;
 
+/**
+ * 气泡动画
+ */
 public class BubbleAnimationActivity extends BaseActivity implements View.OnClickListener {
     private BubbleAnimationView animationView;
     private Button start;
